@@ -1,38 +1,49 @@
-# sv
+# [web]: another blog template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+I'm currently experimenting with SvelteKit (and Svelte 5) for a static blog and
+still getting used to it. I'm loving the scoped styles.
 
-## Creating a project
+**Features:**
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Dynamic posts from [`src/routes/blog/`](src/routes/blog/)
+- Real-time search with highlighting via
+  [`src/lib/state/search.svelte.ts`](src/lib/state/search.svelte.ts)
+- Fully typed
 
-```sh
-# create a new project in the current directory
-npx sv create
+**Getting started**
 
-# create a new project in my-app
-npx sv create my-app
+To install the dependencies:
+
+```bash
+bun install   # or npm
 ```
 
-## Developing
+Run the server:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```bash
+bun run dev
 ```
 
-## Building
+Open http://localhost:5173 in your browser.
 
-To create a production version of your app:
+**Build:**
 
-```sh
-npm run build
+```bash
+bun run build
 ```
 
-You can preview the production build with `npm run preview`.
+**Project structure**
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```
+src/
+├─ app.html              # Main HTML template
+├─ lib/
+│  ├─ components/        # PostCard, SearchHighlight
+│  ├─ state/             # search.svelte.ts
+│  ├─ types/             # Post, SearchResult
+│  └─ utils/             # Search helpers
+└─ routes/
+   ├─ +page.svelte       # Home page with post list
+   ├─ +layout.svelte     # App layout
+   └─ blog/              # Blog posts and routes
+```
