@@ -7,10 +7,10 @@ const config = {
   extensions: [".svelte", ".md", ".svx"],
   preprocess: [vitePreprocess(), mdsvex({ extensions: [".md", ".svx"] })],
   kit: {
-    adapter: adapter({ pages: 'build', assets: 'build', fallback: '404.html' }),
+    adapter: adapter({ pages: "build", assets: "build", fallback: "404.html" }),
     paths: {
-      base: process.env.BASE_PATH || ''
-    }
+      base: process.env.BASE_PATH || "",
+    },
   },
 };
 
