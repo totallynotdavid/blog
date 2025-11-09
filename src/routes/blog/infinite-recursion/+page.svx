@@ -8,9 +8,9 @@ published: true
 ---
 
 <script>
-  import AsciiArt from '$lib/components/effects/AsciiArt.svelte';
-  
-  const recursionArt = `
+	import AsciiArt from '$lib/components/effects/AsciiArt.svelte';
+	
+	const recursionArt = `
     ┌─────────────┐
     │  f(x)       │
     │    ↓        │
