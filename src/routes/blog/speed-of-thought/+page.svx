@@ -16,7 +16,7 @@ published: true
     ║  THOUGHT ≈ ≈ ≈ ≈ ≈ ≈ ≈ ≈ ≈ ≈ ∞?`;
 </script>
 
-<AsciiArtDisplay art={speedArt} topic="Speed Comparison" />
+<AsciiArt art={speedArt} topic="Speed Comparison" />
 
 # {title}
 
