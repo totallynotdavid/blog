@@ -15,7 +15,7 @@ let { children } = $props();
   
   <footer>
     <p>
-      Built with <a href="https://svelte.dev/">Svelte</a> • Powered by curiosity
+      Built with <a href="https://svelte.dev/">Svelte</a> · Powered by curiosity
     </p>
   </footer>
 </div>
