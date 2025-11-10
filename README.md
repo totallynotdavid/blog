@@ -3,7 +3,9 @@
 I'm currently experimenting with SvelteKit (and Svelte 5) for a static blog and
 still getting used to it. I'm loving the scoped styles.
 
-![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/screenshot.png)
+<!-- prettier-ignore -->
+| ![Home page showing the main layout and recent posts](static/preview-home-page.png) | ![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/preview-search-page.png) |
+| - | - |
 
 **Features:**
 
