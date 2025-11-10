@@ -3,6 +3,8 @@
 I'm currently experimenting with SvelteKit (and Svelte 5) for a static blog and
 still getting used to it. I'm loving the scoped styles.
 
+![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/screenshot.png)
+
 **Features:**
 
 - Dynamic posts from [`src/routes/blog/`](src/routes/blog/)
