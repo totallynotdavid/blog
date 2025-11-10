@@ -13,7 +13,7 @@ still getting used to it. I'm loving the scoped styles.
 <!-- prettier-ignore -->
 | Home page | Search page |
 | - | - |
-| ![Home page showing the main layout and recent posts](static/preview-home-page.png) | ![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/preview-search-page.png) |
+| ![Home page showing the main layout and recent posts](static/preview-home-page.jpg) | ![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/preview-search-page.jpg) |
 
 **Getting started**
 
