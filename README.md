@@ -3,16 +3,17 @@
 I'm currently experimenting with SvelteKit (and Svelte 5) for a static blog and
 still getting used to it. I'm loving the scoped styles.
 
-<!-- prettier-ignore -->
-| ![Home page showing the main layout and recent posts](static/preview-home-page.png) | ![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/preview-search-page.png) |
-| - | - |
-
 **Features:**
 
 - Dynamic posts from [`src/routes/blog/`](src/routes/blog/)
 - Real-time search with highlighting via
   [`src/lib/state/search.svelte.ts`](src/lib/state/search.svelte.ts)
 - Fully typed
+
+<!-- prettier-ignore -->
+| Home page | Search page |
+| - | - |
+| ![Home page showing the main layout and recent posts](static/preview-home-page.png) | ![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/preview-search-page.png) |
 
 **Getting started**
 
