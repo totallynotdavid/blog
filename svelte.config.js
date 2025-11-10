@@ -9,8 +9,8 @@ const config = {
   kit: {
     adapter: adapter({ pages: "build", assets: "build", fallback: "404.html" }),
     paths: {
-      base: process.env.BASE_PATH || "",
-      assets: process.env.BASE_PATH || "",
+      // BASE_PATH is set in .github/workflows/deploy.yml
+      base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
     },
   },
 };
