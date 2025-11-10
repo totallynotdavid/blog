@@ -1,4 +1,5 @@
 <script lang="ts">
+import { resolve } from "$app/paths";
 import { page } from "$app/state";
 import { searchState } from "$lib/state/search.svelte";
 import SearchCount from "../search/SearchCount.svelte";
@@ -18,7 +19,7 @@ function deactivateSearch() {
 </script>
 
 <nav>
-  <a href="/" class:active={page.url.pathname === '/'}>Home</a>
+  <a href="{resolve('/')}" class:active={page.url.pathname === resolve('/')}>Home</a>
 
   <div class="search">
     {#if searchState.isActive}

@@ -1,4 +1,6 @@
 <script lang="ts">
+import { resolve } from "$app/paths";
+
 let {
   title,
   excerpt,
@@ -23,7 +25,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-US", {
 </script>
 
 <article class="card">
-  <h2><a href="/blog/{slug}">{title}</a></h2>
+  <h2><a href="{resolve(`/blog/${slug}`)}">{title}</a></h2>
   <time datetime={date}>{formattedDate}</time>
   <p class="excerpt">{excerpt}</p>
   
