@@ -10,6 +10,11 @@ still getting used to it. I'm loving the scoped styles.
   [`src/lib/state/search.svelte.ts`](src/lib/state/search.svelte.ts)
 - Fully typed
 
+<!-- prettier-ignore -->
+| Home page | Search page |
+| - | - |
+| ![Home page showing the main layout and recent posts](static/preview-home-page.jpg) | ![Search results page displaying results for the keyword 'when', with matching terms highlighted](static/preview-search-page.jpg) |
+
 **Getting started**
 
 To install the dependencies:
