@@ -1,12 +1,13 @@
 <script lang="ts">
 import "@fontsource/kosugi/400.css";
+import { asset } from "$app/paths";
 import Header from "$lib/components/layout/Header.svelte";
 
 let { children } = $props();
 </script>
 
 <svelte:head>
-  <link rel="icon" href="/favicon.svg" />
+  <link rel="icon" href="{asset}/favicon.svg" />
 </svelte:head>
 
 <div class="container">
