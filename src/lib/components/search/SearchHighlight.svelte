@@ -1,20 +1,12 @@
 <script lang="ts">
-import { onMount } from "svelte";
+import type { Snippet } from "svelte";
 import { highlightText } from "$lib/utils/search";
 
-const props = $props();
-let query: string = props.query;
-let children = props.children;
+let { query, children }: { query: string; children?: Snippet } = $props();
 
 let container: HTMLElement;
 
 $effect(() => {
-  if (container) {
-    highlightText(container, query);
-  }
-});
-
-onMount(() => {
   if (container && query) {
     highlightText(container, query);
   }
