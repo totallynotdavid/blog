@@ -1,5 +1,4 @@
 <script lang="ts">
-import "@fontsource/kosugi/400.css";
 import { asset } from "$app/paths";
 import Header from "$lib/components/layout/Header.svelte";
 
@@ -22,6 +21,14 @@ let { children } = $props();
 </div>
 
 <style>
+  @font-face {
+    font-family: 'Kosugi';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('@fontsource/kosugi/files/kosugi-latin-400-normal.woff2') format('woff2');
+  }
+
   :global(body) {
     background-color: #fff;
     color: #000;
