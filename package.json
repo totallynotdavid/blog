@@ -17,7 +17,7 @@
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.56.1",
     "@sveltejs/vite-plugin-svelte": "^7.0.0",
-    "mdsvex": "^0.12.7",
+    "mdsvex": "^0.12.8",
     "svelte": "^5.55.1",
     "svelte-check": "^4.4.6",
     "typescript": "^6.0.2",
