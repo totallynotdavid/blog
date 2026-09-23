@@ -7,7 +7,7 @@ let { query, children }: { query: string; children?: Snippet } = $props();
 let container: HTMLElement;
 
 $effect(() => {
-  if (container && query) {
+  if (container) {
     highlightText(container, query);
   }
 });

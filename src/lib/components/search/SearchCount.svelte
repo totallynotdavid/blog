@@ -1,17 +1,7 @@
 <script lang="ts">
 let { count, label = "results" }: { count: number; label?: string } = $props();
 
-let visible = $state(false);
-let prevCount = $state(0);
-
-$effect(() => {
-  if (count > 0) {
-    visible = true;
-    prevCount = count;
-  } else {
-    visible = false;
-  }
-});
+let visible = $derived(count > 0);
 </script>
 
 <div class="count" class:visible>
