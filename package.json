@@ -12,7 +12,7 @@
     "format": "biome check --write --unsafe ."
   },
   "devDependencies": {
-    "@fontsource/kosugi": "^5.2.8",
+    "@fontsource/kosugi": "^5.3.0",
     "@sveltejs/adapter-auto": "^7.0.1",
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.70.3",
